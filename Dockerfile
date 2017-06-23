@@ -25,3 +25,6 @@ RUN curl -Ls https://github.com/GitTools/GitVersion/releases/download/v4.0.0-bet
 RUN echo '#!/bin/bash\nexec mono /usr/lib/GitVersion/tools/GitVersion.exe "$@"' > /usr/bin/git-version
 
 RUN chmod +x /usr/bin/git-version
+
+# Install ncftp
+RUN apt-get install ncftp
