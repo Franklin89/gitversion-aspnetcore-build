@@ -27,4 +27,4 @@ RUN echo '#!/bin/bash\nexec mono /usr/lib/GitVersion/tools/GitVersion.exe "$@"' 
 RUN chmod +x /usr/bin/git-version
 
 # Install ncftp
-RUN apt-get install ncftp
+RUN apt-get install -y ncftp
