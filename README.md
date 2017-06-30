@@ -3,7 +3,7 @@
 ## Usage
 
 ```bash
-docker run -v $(PWD):/src -w="/src" franklin89/gitversion-aspnetcore-build /bin/bash -c "./build.sh"
+docker run -v $(pwd):/src -w="/src" franklin89/gitversion-aspnetcore-build /bin/bash -c "./build.sh"
 ```
 
 ### Using a compose file
