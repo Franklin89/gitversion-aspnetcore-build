@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore-build:1.0-1.1
+FROM microsoft/aspnetcore-build:2.0
 
 MAINTAINER Matteo Locher <matteo.locher@ml-software.ch>
 
